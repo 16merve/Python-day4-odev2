@@ -137,6 +137,7 @@ testClass.number_of_products()
         closeBtn=driver.find_element(By.XPATH,"/html/body/div/div/div[2]/div[1]/div/div/form/div[3]/h3/button")
         sleep(2)
         closeBtn.click()
-     
+        sleep(30)
+        
 testClass=Test_Sauce()
 testClass.error_with_X()
